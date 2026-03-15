@@ -19,3 +19,7 @@ class ElectricCar extends Car {
     console.log(`${this.brand} is charging...`);
   }
 }
+
+const tesla = new ElectricCar("Tesla", 120);
+tesla.move();
+tesla.charge();
