@@ -13,3 +13,9 @@ class Car implements Vehicle {
     console.log(`The ${this.brand} car is moving at ${this.speed} km/h.`);
   }
 }
+
+class ElectricCar extends Car {
+  charge() {
+    console.log(`${this.brand} is charging...`);
+  }
+}
